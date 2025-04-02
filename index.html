@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Bookstore</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('haunted.png');">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Horror Bookstore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#books">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-5">
+        <h1>Welcome to the Horror Bookstore</h1>
+        <p>Find the scariest books to keep you up at night.</p>
+    </header>
+
+    <section id="books" class="container py-5">
+        <h2 class="text-center mb-4">Our Collection</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="book-card">
+                    <img src="book2.jpg" class="img-fluid" alt="Book Cover">
+                    <h4>haunted</h4>
+                    <p>$10.99</p>
+                    <button class="btn btn-danger">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="book-card">
+                    <img src="book3.jpg" class="img-fluid" alt="Book Cover">
+                    <h4>haunted mansion</h4>
+                    <p>$12.99</p>
+                    <button class="btn btn-danger">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="book-card">
+                    <img src="book5.webp" class="img-fluid" alt="Book Cover">
+                    <h4>gothic embrace</h4>
+                    <p>$15.99</p>
+                    <button class="btn btn-danger">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Send</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-4 bg-dark">
+        <p>&copy; 2025 Horror Bookstore. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

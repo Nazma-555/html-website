@@ -1,0 +1,33 @@
+body {
+    background-color: #111;
+    color: white;
+}
+
+.book-card {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.book-card img {
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+body {
+    background: url('https://source.unsplash.com/1600x900/?horror,dark') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.book-card {
+    background-color: rgba(34, 34, 34, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.book-card img {
+    max-height: 200px;
+    margin-bottom: 10px;
+}
